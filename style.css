@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500|Nova+Mono');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #92eff4;  
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    width: 100px;
+    margin: 30px 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+#start {
+    background-color: #00d83d;
+}
+#stop {
+    background-color: #ff0000;
+}
+.stopwatch {
+    font-family: 'Roboto Mono', monospaced;
+    font-size: 80px;
+    font-weight: 500;
+    margin: 15px;
+}
+
