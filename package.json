@@ -7,7 +7,7 @@
     "start": "babel script.js --watch --out-file script-compiled.js",
     "test": "npm run test:html && npm run test:js",
     "test:html": "glob-run nu-html-checker *.html",
-    "test:js": "jshint ./ --exclude node_modules/"
+    "test:js": "jshint ./ --exclude node_modules/,script-compiled.js"
   },
   "keywords": [],
   "author": "",
